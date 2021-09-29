@@ -20,6 +20,9 @@ const workoutSchema = new Schema(
         },
         name: {
           // TODO: For the schema of this attribute, define type and trim and required
+          type: String,
+          trim: true,
+          required: "Please choose your workout"
         },
         duration: {
           // TODO: For the schema of this attribute, define type as number and its required
