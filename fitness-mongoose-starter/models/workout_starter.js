@@ -26,6 +26,8 @@ const workoutSchema = new Schema(
         },
         duration: {
           // TODO: For the schema of this attribute, define type as number and its required
+          type: String,
+          required: "Please enter a time"
         },
         weight: {
           // TODO: For the schema of this attribute, define type as number
